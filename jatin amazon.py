@@ -18,7 +18,7 @@ def product(x):
     tags2=html_page.findAll("a",{"class": "a-popover-trigger a-declarative"})
     tag2=tags2[0].text
 
-    print("Product_name: ".ljust(30," ")+((tag).replace('\n',' ')).strip(" "))
+    print("Product name: ".ljust(30," ")+((tag).replace('\n',' ')).strip(" "))
 
     print("Price: ".ljust(30," ")+(tag1))
 
